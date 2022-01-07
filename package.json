@@ -1,0 +1,24 @@
+{
+  "name": "unprivate-tabs",
+  "version": "1.0.0",
+  "description": "TODO",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasbm/unprivate-tabs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukasbm/unprivate-tabs/issues"
+  },
+  "homepage": "https://github.com/lukasbm/unprivate-tabs#readme",
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "web-ext": "^6.6.0"
+  }
+}
