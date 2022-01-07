@@ -2,8 +2,21 @@
   "manifest_version": 2,
   "name": "Unprivate Tabs",
   "version": "0.0.1",
-  
-  "description": "reopens private tabs in non-private browser window.",
-  
 
+  "description": "reopens private tabs in non-private browser window.",
+  "homepage_url": "https://github.com/lukasbm/unprivate-tabs",
+  "icons": {
+    "256": "icons/icon.png"
+  },
+
+  "permissions": ["tabs"],
+
+  "browser_action": {
+    "default_icon": "icons/icon.png",
+    "default_title": "Unprivate Tabs!"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
 }
